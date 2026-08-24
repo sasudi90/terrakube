@@ -62,3 +62,7 @@ variables.auto.tfvars
 liquibase.properties
 
 ui/.yarn/install-state.gz
+
+# Local LDAP bootstrap users/passwords (use config-ldap.ldif.example)
+docker-compose/ldif/*.ldif
+!docker-compose/ldif/*.ldif.example

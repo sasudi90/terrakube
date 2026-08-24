@@ -1,3 +1,6 @@
+# Copy to config-ldap.ldif and adjust users/passwords for your lab.
+# config-ldap.ldif is gitignored — do not commit real credentials.
+
 dn: ou=users,dc=example,dc=org
 ou: users
 objectClass: organizationalunit
